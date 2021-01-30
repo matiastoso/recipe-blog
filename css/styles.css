@@ -1,0 +1,9 @@
+.copete::before {
+  content: url("../images/6dots.svg");
+  display: block;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: -30px;
+}
+/*# sourceMappingURL=styles.css.map */
