@@ -1,8 +1,30 @@
-.copete::before {
-    content: url('../images/6dots.svg');
-    display:block;
-    width: 75px;
-    height:75px;
-    position:absolute;
-    left: -30px;
+// VARIABLES
+$orange: #F2994A;
+$white: #ffffff;
+
+// ESTILOS DE LA SECCION INSTRUCCIONES
+.ins-item {
+    background-color: $orange !important;
+}
+
+// ESTILOS DEL ASIDE
+.widget {
+    background-color: $white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-height: 367px;
+    max-width: 216px;
+
+    .ms-3 span {
+        font-size: 10px;
+    }
+    
+    .ms-3 P {
+        font-size: 14px;
+    }
+}
+
+article img {
+    width: 28px;
+    height: 28px;
 }
